@@ -28,6 +28,13 @@ export default function Home() {
         Start chatting
         <ArrowRightIcon />
       </Link>
+      <Link
+        className={buttonVariants({ size: "lg", className: "px-4" })}
+        href="/chat-google"
+      >
+        Chat with Google
+        <ArrowRightIcon />
+      </Link>
     </main>
   );
 }
