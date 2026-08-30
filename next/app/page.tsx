@@ -35,6 +35,13 @@ export default function Home() {
         Chat with Google
         <ArrowRightIcon />
       </Link>
+      <Link
+        className={buttonVariants({ size: "lg", className: "px-4" })}
+        href="/chat-bot"
+      >
+        Chat Bot
+        <ArrowRightIcon />
+      </Link>
     </main>
   );
 }
