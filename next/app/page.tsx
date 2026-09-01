@@ -42,6 +42,13 @@ export default function Home() {
         Chat Bot
         <ArrowRightIcon />
       </Link>
+      <Link
+        className={buttonVariants({ size: "lg", className: "px-4" })}
+        href="/doc-chat"
+      >
+        Chat with your PDFs
+        <ArrowRightIcon />
+      </Link>
     </main>
   );
 }
